@@ -1,0 +1,346 @@
+/* CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+  background-color: #F6F1E9;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7efe5;
+} 
+
+.gradient {
+  background-image: linear-gradient(#FF8400 50%, #FFD93D 100%);
+  /*margin: -10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+
+body {
+  font-family: Ariel, sans-serif;
+	font-size: 12pt;
+}
+
+header-font {
+  font-size: 60pt;
+}
+
+h1, h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 40pt;
+}
+
+h2 {
+  color: white;
+  padding-left: 15px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20pt;
+}
+
+h4 {
+  font-family: 'Righteous', cursive;
+  font-size: 14pt;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  width: 50%; 
+  margin: 0 auto; 
+}
+
+.title {
+	font-size: 50pt;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Righteous', cursive;
+  /*font-family: 'ZCOOL QingKe HuangYou', sans-serif;*/
+}
+
+.subtitle {
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 20pt;
+}
+
+.remove-space {
+  padding: 0px;
+  margin: 0px 0px -15px 0px;
+}
+
+#button-search {
+  width: 100px;
+}
+
+.plan-btn {
+  width: 150px;
+}
+
+.button {
+  background-color: #FF8400;
+  border-color: sienna;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 16pt;
+}
+
+.button:hover {
+  background-color: orangered;
+  border-color: sienna;
+  /*box-shadow: 2px 3px 6px sienna;*/
+  transition-delay: 1ms;
+}
+
+.button:focus {
+  background-color: orangered;
+  border-color: sienna;
+}
+
+.navbar {
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 24pt;
+}
+
+table {
+  background-color: #F6F1E9;
+}
+
+th {
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+/*td {
+  background-color: pink;
+}*/
+
+a {
+  margin-top: 10px;
+}
+
+#th-day {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.footer {
+  background-color: #ffffff;
+  margin: -10px;
+}
+
+#footer-div {
+  padding: 15px;
+  margin: 15px;
+}
+
+.upload-form {
+  text-align: center;
+}
+
+#file-input {
+  display: none;
+}
+
+.upload-button {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-button img {
+  width: 200px; /* Set width of the image */
+  height: 150px; /* Set height of the image */
+}
+
+.file-list {
+  font-size: 14px;
+  margin-top: 5px;
+  margin: 0 auto;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.dotted-border {
+  border: 2px dotted #999; /* Dotted border with 2px width and #999 color (gray) */
+  padding: 5px;
+  text-align: center;
+}
+
+.schedule-td {
+  text-align: left;
+  font-size: 10pt;
+  /*background-color: bisque;*/
+  padding: 5px;
+  margin: 5px;
+  border-bottom-color: 3px solid black;
+}
+
+.div-with-hungry {
+  margin-bottom: 200px;
+}
+
+#schedule-div {
+  padding: 40px 15px 80px 15px;
+}
+
+#schedule-table {
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px sienna;
+}
+
+.schedule-mealtime {
+  width: 450px;
+  margin-left: 15px;
+}
+
+.schedule-mealtime:hover {
+  box-shadow: 4px 4px 15px sienna;
+  transition-delay: 2ms;
+  transition-duration: 0.5s;
+  margin: 0px 20px;
+}
+
+#top-title-header {
+  padding: 20% 0% 10% 15px;
+  margin: 200px 0px 100px 30px;
+  /*background-color: pink;*/
+}
+
+#meal-pic {
+  width: 50px;
+  border-radius: 5px;
+}
+
+.calories {
+  color: grey;
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-size: 16pt;
+}
+
+#search-input {
+  font-size: 14pt;
+  width: 500px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+#search-for-meal {
+  width: 100px;
+  height: 50px;
+  font: 22pt;
+  text-align: center;
+  vertical-align: bottom;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:#FF8400;
+  border-radius: 5px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+#p-search {
+  padding-top: 8px;
+  font-size: 18pt;
+  color:white;
+}
+
+#search-for-meal:hover {
+  box-shadow: 2px 3px 8px sienna;
+  transition-delay: 2ms;
+  transition-duration: 0.5s;
+  width: 105px;
+}
+
+#robot-gif {
+  width: auto;
+  height: 50px;
+}
+
+.schedule-img {
+  width: 100px;
+  height: 100px;
+}
+
+.mealname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18pt;
+  padding-right: 20px;
+}
+
+.mealserving {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  vertical-align: top;
+  font-weight: bolder;
+  padding: 0px 10px;
+  margin: 5px;
+}
+
+#generated-recipes {
+  margin: 15px;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-body {
+  max-height: min-content;
+}
+
+.card-title {
+  font-size: 18pt;
+}
+
+.card-text {
+  font-size: 10pt;
+}
+
+.list-group {
+  font-size: 14pt;
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+.cards-in-table {
+  padding-left: 50px;
+}
+
+.scroll {
+  overflow: auto;
+  width: 100%;
+}
+
+.filter {
+  display: inline-block;
+  border-radius: 50px;
+  min-width: 100px;
+  max-width: fit-content;
+  background-color: bisque;
+  color: rgb(28, 28, 28);
+  border: 2px groove #FF8400;
+  padding: 5px;
+  margin: 10px 10px 10px 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14pt;
+}
+
+.filter:hover {
+  background-color: #fec07c;
+  transition-duration: 0.8ms;
+}
+
+.servings {
+  margin: 0px 10px;
+}
